@@ -210,12 +210,25 @@ __marimo__/
 # Ignore processed data
 data/processed/
 
+# Ignore raw or large datasets (optional)
+data/raw/
+
 # Ignore virtual environment
 venv/
 
-# Ignore Python cache
+# Ignore Python cache files
 __pycache__/
 *.pyc
 
-# Optional: Jupyter checkpoints
+# Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore system files (Windows / macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore model outputs or weights (optional)
+models/
